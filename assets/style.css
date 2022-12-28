@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+html {
+    background: linear-gradient(107.56deg, #03000F 0%, #020009 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section,footer {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.centro {
+    background: url(img/image\ 2.png) center/cover;
+}
+
+.teste {
+    background-color: rgba(32, 32, 32, 0.7);
+}
+
+.centro, .teste {
+    width: 100%;
+    height: 80vh;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    padding: 15px;    
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 45px;
+    text-align: center;
+    align-items: center;
+}
+
+.menu li:hover,.filter li:hover{
+    text-decoration: underline #2681FF;
+}
+
+button{
+    box-sizing: border-box;
+    border-radius: 4px; 
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.menu ul li {
+    cursor: pointer;
+}
+
+.menu button {
+    width: 144px;
+    height: 48px;
+}
+
+.session, .download:hover {
+    background: none;
+    border: 1px solid #FFFFFF;
+}
+
+.download, .venda,.session:hover{
+    background: #2681FF;
+    border-radius: 4px;
+    border: 1px solid #2681FF;   
+}
+
+.toggle-button {
+    display: none;
+    flex-direction: column;
+    width: 30px;    
+  }
+  
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 7px;
+  }
+
+
+hr {    
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    margin-bottom: 15px ;
+    height: 0px;
+}
+
+.godofwar {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.godofwar p {
+    max-width: 523px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 1rem auto;
+}
+.buttons {
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mais{
+    border: none;
+    background: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.venda {
+    width: 246px;
+    height: 52px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.filter {
+    padding: 15px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;    
+}
+
+.filter ul {
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    align-items: center;    
+}
+
+.filter h2 {
+    width: 166px;
+    height: 80px;
+    font-weight: 700;
+}
+
+.filter li {
+    cursor: pointer;
+}
+
+.filter p {
+    color: #2681FF;
+    cursor: pointer;
+}
+
+.bloco {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Inter', sans-serif;
+    flex-wrap: wrap;
+}
+
+.game {
+ color: #FFFFFF; 
+ cursor: pointer;  
+}
+
+.game span{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.news {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.news-one {
+    background: url(img/ubisoft.png) center/cover;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.news-two {
+    background: url(img/rocket-league.png);
+}
+
+.news-tree {
+    background: url(img/impact.png);
+}
+
+.news-one, .news-two, .news-tree, .fundo {
+    width: 380px;
+    height: 236px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    justify-content: flex-end;
+}
+
+.news-two:hover {
+    cursor: pointer;
+}
+
+.news p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.news span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.fundo{
+    background-color: rgba(32, 32, 32, 0.7);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.games-two{
+    margin: 15px;
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Inter', sans-serif;
+    width: 580px;
+    height: 182px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.games-two a,h2,h4,span {
+    margin: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.games-two:hover,.game:hover{
+    background: linear-gradient(95.77deg, #262626 0%, #1C1C1C 97.65%);
+}
+
+.info-game a {
+    width: 72px;
+    height: 40px;
+    background: #202020;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 0.625rem;
+    padding: 10px;
+    margin-top: 7px;
+    color: #FFFFFF;   
+    text-align: center;
+    line-height: 30px;
+}
+
+.conteudo {
+    background: url(img/image\ 22.png) center/cover;
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo img {
+    width: 690px;
+    height: 380px;
+    border-radius: 10px;
+}
+
+.conteudo h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 44px;
+    color: #FFFFFF;
+    margin: 15px;
+}
+
+.conteudo p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 379px;
+    margin: 15px
+}
+
+.conteudo button {
+    width: 174px;
+    height: 52px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #262626;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    margin: 15px;
+    border: none;
+}
+
+.conteudo div {
+    padding: 15px;
+}
+
+.pc-logo {
+    padding: 15px;
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.8);    
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+}
+
+footer hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.topo-footer, .topo-footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo-footer div {
+    gap:30px
+}
+
+.conteudo-footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.conteudo-footer span {
+    margin: 0;
+}
+
+.conteudo-footer div {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    justify-content: center;
+}
+
+.conteudo-footer div p {
+    padding: 10px;    
+    font-size: 0.75rem;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.conteudo-footer div p:hover {
+    text-decoration: underline #FFFFFF;
+}
+
+.conteudo-footer div h5 {
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    opacity: 1;
+    margin: 0;
+}
+
+.consideracao-footer {
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 21px;
+    opacity: 0.8;
+    margin-bottom: 15px;
+ }
+
+ iframe{
+    border: none;
+ }
+ 
+/* Animação CSS */
+
+.slide-fwd-center:hover{animation: myAnim 1s ease 0s 1 normal forwards;}
+@keyframes myAnim {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+
+/* Resposividade */
+
+@media (max-width: 900px)
+{   
+    .toggle-button {
+        display: flex;
+    }
+
+    .menu li, .menu button {
+        display: none;
+    }
+    
+    .menu {
+        justify-content: space-between;
+    }
+
+    .godofwar {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .godofwar img {
+        width: 90%;
+    }
+
+    .buttons {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .conteudo
+    {
+        display: none;
+    }
+
+    .filter {
+        text-align: center;
+    }
+    .filter ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .filter li {
+        margin: 7px;
+    }
+
+    .filter h2 {
+        margin: 0;
+    }
+
+    .bloco {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .news {
+        flex-direction: column;
+        align-items: center;
+    }
+    .news-one, .news-two, .news-tree { 
+        margin-bottom: 35px;
+    }
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    #barra {
+        display: none;
+    }
+
+    .pc-logo {
+        display: none;
+    }
+    .games-two {
+        width: 300px;
+    }
+
+    .conteudo-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .consideracao-footer{
+        text-align: center;
+    }
+
+    section,footer {
+        margin: 0;
+    }
+    iframe{
+       max-width:350px ;
+       max-height: 300px;
+     }
+    }
